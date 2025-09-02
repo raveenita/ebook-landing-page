@@ -1,8 +1,7 @@
-# ☸ Buddhism for tired developers 
+# ☸ Buddhism for tired developers
 
 This project is been building to promote my first ebook to be published, called "Buddhism for tired developers"
 I loved to write it and developing this application made everything better!
-
 
 ## Development server
 
@@ -31,4 +30,3 @@ To execute unit tests with the [Karma](https://karma-runner.github.io) test runn
 ```bash
 ng test
 ```
-

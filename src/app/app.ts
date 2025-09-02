@@ -5,13 +5,13 @@ import { Chapters } from './chapters/chapters';
 import { Footer } from './footer/footer';
 import { Header } from './header/header';
 import { ReleaseCampaign } from './release-campaign/release-campaign';
-import { Pills } from './pills/pills';
+import { Pill } from './pill/pill';
 
 @Component({
   selector: 'app-root',
-  imports: [AboutPublisher, Chapters, Footer, Header, ReleaseCampaign, Pills],
+  imports: [AboutPublisher, Chapters, Footer, Header, ReleaseCampaign, Pill],
   templateUrl: './app.html',
-  styleUrl: './app.sass'
+  styleUrl: './app.scss',
 })
 export class App {
   protected readonly title = signal('ebook-landing-page');

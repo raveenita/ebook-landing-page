@@ -1,0 +1,35 @@
+:host {
+    background-color: #edaf3fd9;
+    color: #fff;
+    margin-top: 10rem;
+    display: inline-block;
+    padding: 1rem 7rem 4rem 5rem;
+    border-radius: 60px 0 0 60px;
+    right: -400px;
+    max-width: 497px;
+    position: relative;
+    border: 2px solid #fff;
+}
+
+h3 {
+    font-family: "Staatliches", cursive;
+    font-size: 2.5rem;
+
+    strong {
+        font-size: 3rem;
+        display: block;
+        font-weight: 400;
+        color: var(--color-brown);
+    }
+}
+
+
+p {
+
+    font-size: 1.3rem;
+        color: var(--color-brown);
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 2rem;
+
+}

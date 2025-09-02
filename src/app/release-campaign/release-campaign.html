@@ -1,13 +1,16 @@
 <header>
-    <h3>Seja o primeiro a adquirir <br> e aprenda:</h3>
+  <h3>
+    Seja o primeiro a adquirir <br />
+    <strong>e aprenda:</strong>
+  </h3>
 </header>
 
 <ul class="ebook-teachings">
-    @for(teaching of teachings; track teaching) {
-        <li>{{ teaching }}</li>
-    }
+  @for (teaching of teachings; track teaching) {
+  <li>{{ teaching }}</li>
+  }
 </ul>
 
-<input type="text" placeholder="Seu melhor e-mail ou número de WhatsApp">
+<input type="text" placeholder="Seu melhor e-mail ou número de WhatsApp" />
 
 <button>Me avise do lançamento!</button>

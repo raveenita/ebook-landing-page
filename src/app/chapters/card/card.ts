@@ -5,8 +5,8 @@ import { Card as CardInterface } from '../../interfaces/card.interface';
   selector: 'app-card',
   imports: [],
   templateUrl: './card.html',
-  styleUrl: './card.sass'
+  styleUrl: './card.scss',
 })
 export class Card {
-  @Input() chapter!: CardInterface
+  @Input() chapter!: CardInterface;
 }

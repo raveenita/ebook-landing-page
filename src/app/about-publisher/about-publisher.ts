@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-about-publisher',
   imports: [],
   templateUrl: './about-publisher.html',
-  styleUrl: './about-publisher.sass'
+  styleUrl: './about-publisher.scss',
 })
-export class AboutPublisher {
-
-}
+export class AboutPublisher {}

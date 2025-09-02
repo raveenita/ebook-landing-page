@@ -1,57 +1,79 @@
 <main class="main">
   <app-header></app-header>
 
-  <section class="main-screen">
-    <header>
-      <h1>30 dias em um monastério Budista</h1>
+  <section class="main__entry">
+    <div class="container">
+      <header class="entry__header">
+        <h1 class="header__title">30 dias em um monastério Budista</h1>
 
-      <p>Transformados em técnicas práticas para encontrar serenidade no mundo tech.</p>
-    </header>
-    
-    <div>
-      <figure>
-        <img src="assets/images/ebook-cover.png" alt="Capa do eBook 30 dias em um monastério Budista">
-      </figure>
+        <p class="header__subtitle">
+          Transmutados em sabedoria e práticas para uma vida mais leve
+          no meio do caos da vida moderna. 
+        </p>
+      </header>
 
-      <a href="">Quero receber no lançamento</a>
+      <div class="entry__content">
+        <figure>
+          <img
+            src="assets/images/ebook-cover.png"
+            alt="Capa do eBook 30 dias em um monastério Budista"
+          />
+        </figure>
 
-      <div class="pills">
-        <app-pills>347 devs na lista</app-pills>
-        <app-pills>Lançamento em 31 dias!</app-pills>
+        <a class="button__launch" href="">Quero receber no lançamento</a>
+
+        <div class="entry__pills">
+          <app-pill>347 devs na lista</app-pill>
+          <app-pill>Lançamento em 31 dias!</app-pill>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="main-reasons-to-read">
-    <header>
-      <h2>Porquê você deveria comprar esse livro?</h2>
-      <h3>Por quê precisamos nos libertar dos males da sociedade moderna</h3>
+  <section class="main__arguments">
+   <div class="container">
+      <header class="arguments__header">
+        <h2 class="header__title">Um livro para você que...</h2>
+      </header>
 
-      <p>Você está mentalmente esgotado?</p>
-    </header>
+      <ul class="arguments__list">
+        <li class="list__item">Sofre de <strong>ansiedade e gastrite nervosa</strong> por conta do estresse do dia a dia no trabalho</li>
+        <li class="list__item">
+          <strong>Sente</strong> que pode desenvolver <strong>burnout</strong> por <strong>esgotamento físico e mental</strong> 
+        </li>
+        <li class="list__item">Já teve ou frequentemente sofre da <strong>síndrome do impostor</strong></li>
+      </ul>
 
-    <ul>
-      <li>80% das pessoas desenvolvedoras relatam burnout por esgotamento físico e mental </li>
-      <li>80% das pessoas desenvolvedoras sofrem de ansiedade e gastrite nervosa por conta do trabalho </li>
-      <li>80% das pessoas desenvolvedoras sofrem de síndrome do impostor </li>
-    </ul>
+      <header class="arguments__header">
+        <h2 class="header__title">E tem dificuldade de...</h2>
+      </header>
 
-    <a href="">Quero a minha paz</a>
+      <ul class="arguments__list">
+        <li class="list__item">Se concentrar em tarefas simples. <br> Exemplo: lançar horas, abrir um PR simples</li>
+        <li class="list__item">
+          Lidar com <strong>críticas</strong> e <strong>feedbacks negativos</strong> no trabalho
+        </li>
+        <li class="list__item">
+          Sentir motivação para trabalhar em projetos pessoais ou aprender novas tecnologias
+        </li>
+      </ul>
+
+      <footer class="arguments__footer">
+        <a class="button__launch" href="">Quero a minha paz</a>
+      </footer>
+   </div>
   </section>
 
-  <section class="main-book-chapters">
-    <header>
-      <h2>A resposta está na <strong>sabedoria dos antigos</strong></h2>
+  <section class="main__chapters">
+    <header class="chapters__header">
+      <h2 class="header__title">A resposta está na</h2>
+      <h3 class="header__subtitle">sabedoria dos antigos</h3>
     </header>
 
     <app-chapters></app-chapters>
-  </section>
-
-  <section class="main-call-to-action">
     <app-release-campaign></app-release-campaign>
     <app-about-publisher></app-about-publisher>
   </section>
 
   <app-footer></app-footer>
-
 </main>

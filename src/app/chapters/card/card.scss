@@ -1,0 +1,33 @@
+.chapter {
+    width: 400px;
+    min-height: 300px;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-right: 2em;
+    text-align: center;
+    background-color: #FFE0B6;
+    box-sizing: border-box;
+    border: 1px solid #FFB44D;
+    box-shadow: 4px 4px 10px rgba(#9A5900, 0.3);
+
+    .chapter__icon {
+        font-size: 3rem;
+        display: block;
+        text-align: center;
+        margin: {
+            top: 1rem;
+            bottom: 1rem;
+        }
+    }
+
+
+    .chapter__title {
+        font-size: 1.4rem;
+        color: var(--color-brown);
+    }
+
+    .chapter__description {
+        font-weight: 400;
+        color: var(--color-brown);
+    }
+}

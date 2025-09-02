@@ -1,0 +1,82 @@
+:host {
+    background-color: #edaf3fd9;
+    color: #fff;
+    margin-top: 10rem;
+    display: inline-block;
+    padding: 1rem 3rem 4rem 5rem;
+    border-radius: 60px;
+    left: -115px;
+    max-width: 550px;
+    position: relative;
+    border: 2px solid #fff;
+}
+
+h3 {
+    font-family: "Staatliches", cursive;
+    font-size: 2.5rem;
+        font-weight: 400;
+
+
+    strong {
+        font-size: 3rem;
+        font-weight: 400;
+
+        color: var(--color-brown);
+    }
+}
+
+.ebook-teachings {
+    list-style: none;
+    padding: 0;
+    list-style-position: outside;
+
+    li {
+        color: var(--color-brown);
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+}
+
+
+input {
+    width: 100%;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+  color: #DCDCDC;
+  border: 1px solid #cac7c7;
+
+  padding: 1rem;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #D5D5D5;
+  text-transform: uppercase;
+
+    &::placeholder {
+        color: #DCDCDC;
+        font-family: "Staatliches", cursive;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
+
+button  {
+    color: #fff;
+    margin-top: 1.5rem;
+    border-radius: 16px;
+    width: 100%;
+    display: inline-block;
+    background-image: linear-gradient(90deg, #36922E 0%, #44AD3A 100%);
+    border: 1px solid #0D7C02;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: .5rem 2rem;
+    box-shadow:  4px 4px 10px rgba(0, 0, 0, 0.25);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease;
+    font-family: "Staatliches";
+    letter-spacing: 1px;
+}

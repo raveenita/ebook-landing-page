@@ -1,3 +1,5 @@
-@for(chapter of chapters; track chapter.icon) {
-  <app-card [chapter]="chapter"></app-card>
-}
+<div class="container">
+    @for (chapter of chapters; track chapter.icon) {
+        <app-card [chapter]="chapter"></app-card>
+    }
+</div>
